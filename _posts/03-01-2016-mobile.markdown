@@ -1,0 +1,12 @@
+---
+layout: post
+title:  "Mobile"
+description: "Loja adaptada para smartphones e tablets"
+date: 2016-01-01 00:00:00
+---
+
+Todos os temas já são responsivos, se adequando perfeitamente a smartphones, tables e desktops.
+
+Não existem configurações específicas para o mobile, mas o tema quando apresentado em um smartphone ou tablet segue as mesmas cores e configurações da página apresentada em um desktop.
+
+![Mobile]({{ site.url }}/media/mobile.png)

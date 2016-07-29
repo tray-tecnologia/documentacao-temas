@@ -1,0 +1,59 @@
+@import "header"
+@import "footer"
+
+body
+    background: #f9f9f9
+    
+.page-content
+    font-size: 0
+    margin-top: 50px
+    
+    aside, section
+        display: inline-block
+        vertical-align: top
+        font-size: 16px
+        height: 100%
+    
+    aside
+        width: calc(100% / 3)
+        
+    section
+        width: calc((100% / 3) * 2 )
+        box-shadow: 1px 1px 5px 0px #ddd
+        
+    .menu
+        display: block
+        padding-right: 20px
+        
+        p
+            font-size: 20px
+            padding-left: 10px
+            border-bottom: 2px solid #ddd
+            padding-bottom: 5px
+            margin-right: 30px
+        
+        .item
+            display: block
+            
+            &:hover
+                background: #eee
+            
+            a
+                text-decoration: none
+                color: #000
+                padding: 8px 10px
+                display: block
+                font-size: 16px
+                
+    section
+        padding: 15px
+        background: #fff
+        
+/* Mobile */
+@media (max-width: 768px)
+    .page-content
+        aside
+            display: none
+            
+        section
+            width: 100%

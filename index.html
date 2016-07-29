@@ -1,23 +1,24 @@
----
-layout: default
+--- 
+layout: default 
 ---
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+    <p>Se você instalou um tema em sua loja e está com problemas, fique tranquilo, iremos te ajudar. Veja nossos artigos que ajudarão você a resolver o problema com seu tema:</p>
+    
+    <div class="post-list">
+        {% for post in site.posts reversed %}
+            <div class="post-link">
+                <a href="{{ post.url | prepend: site.baseurl }}">
+                    <h2>{{ post.title }}</h2>
+                </a>
+                {% if post.description %}
+                    <span>{{ post.description }}</span>
+                {% endif %}
+            </div>
+        {% endfor %}
+    </div>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
-
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    <p>Não encontrou o que procurava? Nenhum artigo te ajudou? <a href="http://atendimento.tray.com.br/hc/pt-br#title-bar" target="_blank">Então clique e fale com a gente</a></p>
 
 </div>

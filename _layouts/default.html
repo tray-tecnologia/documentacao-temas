@@ -1,20 +1,44 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+{% include head.html %}
 
-  <body>
+<body>
 
-    {% include header.html %}
+    {% include header.html %} {% if page.title == null %}
+    <div class="title-decoration">
+        <span class="title">Documenta&ccedil;&atilde;o de Temas</span>
+        <svg>
+                <use xlink:href="/images/symbols.svg#wave"/>
+            </svg>
+        <span class="sub-title">Tire aqui suas d&uacute;vidas sobre seu tema</span>
+    </div>
+    {% endif %}
 
-    <div class="page-content">
-      <div class="wrapper">
-        {{ content }}
-      </div>
+    <div class="container">
+        <div class="page-content">
+            <aside>
+
+                <nav class="menu">
+
+                    <p>Artigos</p>
+
+                    {% for post in site.posts reversed %}
+                    <div class="item">
+                        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ forloop.index }} - {{ post.title }}</a>
+                    </div>
+                    {% endfor %}
+                </nav>
+
+            </aside>
+            <section>
+                {{ content }}
+            </section>
+        </div>
     </div>
 
     {% include footer.html %}
 
-  </body>
+</body>
 
 </html>

@@ -1,0 +1,89 @@
+.site-header
+    font-size: 0
+    padding: 20px 0
+    box-shadow: 0px 3px 7px 0px #999
+    
+    // background: #0b8eb3
+    // background: -moz-linear-gradient(left,  #0b8eb3 0%, #0eafdc 50%, #0b8eb3 100%)
+    // background: -webkit-linear-gradient(left,  #0b8eb3 0%,#0eafdc 50%,#0b8eb3 100%)
+    // background: linear-gradient(to right,  #0b8eb3 0%,#0eafdc 50%,#0b8eb3 100%)
+    // filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0b8eb3', endColorstr='#0b8eb3',GradientType=1 )
+    
+    background: linear-gradient(270deg, #0b8eb3, #0eafdc)
+    background-size: 400% 400%
+    
+    -webkit-animation: AnimationBG 5s ease infinite
+    -moz-animation: AnimationBG 5s ease infinite
+    -o-animation: AnimationBG 5s ease infinite
+    animation: AnimationBG 5s ease infinite
+    
+    @-webkit-keyframes AnimationBG
+        0%
+            background-position: 0% 50%
+    
+        50%
+            background-position: 100% 50%
+    
+        100%
+            background-position: 0% 50%
+
+
+    @-moz-keyframes AnimationBG
+        0%
+            background-position: 0% 50%
+    
+        50%
+            background-position: 100% 50%
+    
+        100%
+            background-position: 0% 50%
+
+
+    @keyframes AnimationBG
+        0%
+            background-position: 0% 50%
+    
+        50%
+            background-position: 100% 50%
+    
+        100%
+            background-position: 0% 50%
+    
+    .site-title, .navigation
+        width: 50%
+        display: inline-block
+        vertical-align: middle
+    
+    .site-title
+        font-size: 0
+        
+        svg
+            width: 110px
+            height: 83px
+            
+    .navigation
+        display: inline-block
+        vertical-align: middle
+        text-align: right
+        
+        a
+            padding: 15px 20px
+            font-family: 'Raleway', sans-serif
+            font-weight: 700
+            color: #fff
+            text-decoration: none
+            text-transform: uppercase
+            font-size: 16px
+            border-radius: 10px
+            
+            &:hover
+                background: #0b7d9d
+                
+/* Mobile */
+@media (max-width: 767px)
+    .site-header
+    
+        .site-title
+            display: block !important
+            width: 100% !important
+            text-align: center

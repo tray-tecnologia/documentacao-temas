@@ -1,38 +1,19 @@
 <footer class="site-footer">
-
-  <div class="wrapper">
-
-    <h2 class="footer-heading">{{ site.title }}</h2>
-
-    <div class="footer-col-wrapper">
-      <div class="footer-col footer-col-1">
-        <ul class="contact-list">
-          <li>{{ site.title }}</li>
-          <li><a href="mailto:{{ site.email }}">{{ site.email }}</a></li>
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-2">
-        <ul class="social-media-list">
-          {% if site.github_username %}
-          <li>
-            {% include icon-github.html username=site.github_username %}
-          </li>
-          {% endif %}
-
-          {% if site.twitter_username %}
-          <li>
-            {% include icon-twitter.html username=site.twitter_username %}
-          </li>
-          {% endif %}
-        </ul>
-      </div>
-
-      <div class="footer-col footer-col-3">
-        <p>{{ site.description }}</p>
-      </div>
+    <div class="container">
+        <div class="logos">
+            <a href="https://www.tray.com.br/" target="_blank">
+                <svg>
+                    <use xlink:href="/images/symbols.svg#traycommerce"/>
+                </svg>
+            </a>
+            <a href="http://www.locaweb.com.br/" target="_blank">
+                <svg>
+                    <use xlink:href="/images/symbols.svg#locaweb"/>
+                </svg>
+            </a>
+        </div>
+        <div class="about">
+            <p>Tray Temas. Todos os direitos reservados. Proibida reprodução total ou parcial. Preços e estoque sujeito a alterações sem aviso prévio | 05.800.832/0001-06 - Tray Temas - Rua Melo Alves. 347 - Cerqueira Cesar - CEP: 01417-010- São Paulo - SP</p>
+        </div>
     </div>
-
-  </div>
-
 </footer>

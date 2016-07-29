@@ -1,0 +1,24 @@
+---
+layout: post
+title:  "Vitrines"
+description: "Escolha quais produtos mostrar em sua página inicial"
+date: 2016-01-01 00:00:00
+---
+
+Os produtos a serem exibidos nas vitrines do tema podem ser filtrados conforme as seguinte opções:
+
+* Mais Vendidos
+* Destaques
+* Lançamentos
+* Frete Grátis
+* Promoções
+
+![Teste]({{ site.url }}/media/vitrines.png)
+
+Para que o produto apareça na vitrine, o mesmo deve estar configurado conforme a opção selecionada. 
+
+Como por exemplo, se estiver selecionado a opção **Destaques** para a vitrine, somente serão exibidos os produtos que estejam configurados como **Destaque** na configuração de produto.
+
+![Produto em Destaque]({{ site.url }}/media/vitrine_destaque.png)
+
+_As opções podem variar conforme o tema_
