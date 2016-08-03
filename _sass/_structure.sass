@@ -19,14 +19,18 @@ body
         
     section
         width: calc((100% / 3) * 2 )
-        box-shadow: 1px 1px 5px 0px #ddd
+        
+        article
+            box-shadow: 1px 1px 5px 0px #ddd
+            padding: 15px
+            background: #fff
         
     .menu
         display: block
         padding-right: 20px
         
         p
-            font-size: 20px
+            font-size: 24px
             padding-left: 10px
             border-bottom: 2px solid #ddd
             padding-bottom: 5px
@@ -44,16 +48,17 @@ body
                 padding: 8px 10px
                 display: block
                 font-size: 16px
-                
-    section
-        padding: 15px
-        background: #fff
         
 /* Mobile */
-@media (max-width: 768px)
+@media (max-width: 767px)
     .page-content
+        margin-top: 30px
+        
         aside
             display: none
             
         section
             width: 100%
+            
+    .title-decoration
+        padding: 0 20px

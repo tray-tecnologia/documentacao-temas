@@ -6,10 +6,11 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Documentação - Loja de Temas
+name: Loja de Temas Tray
+title: Documentação - Loja de Temas Tray
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
-  Documentação da loja de temas da Tray E-commerce
+  Documentação oficial da Loja de Temas da Tray E-commerce, tire aqui todas as suas dúvidas
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://documentacao-temas-ezanattatray.c9users.io" # the base hostname & protocol for your site
 

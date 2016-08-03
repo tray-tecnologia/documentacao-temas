@@ -3,6 +3,7 @@ layout: post
 title:  "Mobile"
 description: "Loja adaptada para smartphones e tablets"
 date: 2016-01-01 00:00:00
+order: 9
 ---
 
 Todos os temas já são responsivos, se adequando perfeitamente a smartphones, tables e desktops.

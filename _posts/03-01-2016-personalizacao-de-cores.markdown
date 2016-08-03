@@ -3,6 +3,7 @@ layout: post
 title:  "Personalização de cores"
 description: "Customize sua loja e deixe ela do seu jeito"
 date: 2016-01-01 00:00:00
+order: 13
 ---
 
 Através do [Customizador](http://comoacessarocustomizar.com) é possível alterar as seguintes cores do seu tema:

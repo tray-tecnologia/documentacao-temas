@@ -1,7 +1,14 @@
 <header class="site-header">
+    
+    <label for="menu" class="icon-menu">
+        <svg>
+            <use xlink:href="/images/symbols.svg#menu"/>
+        </svg>
+    </label>
+    
+    <input type="checkbox" name="menu" id="menu">
 
     <div class="container">
-
 
         <a class="site-title" href="{{ site.baseurl }}/">
             {% if page.title %}
@@ -9,11 +16,41 @@
             {% else %}
                 <h1>{{ site.title }}</h1>
             {% endif %}
-            
             <svg>
                 <use xlink:href="/images/symbols.svg#logo"/>
             </svg>
         </a>
+        
+        
+        <script type="application/ld+json">
+            {
+                "@context": "http://schema.org",
+                "@type": "Organization",
+                "name":"{{ site.name }}",
+                "url": "{{ site.url }}",
+                "logo": "{{ site.url }}/images/logo-tray-loja-de-temas.png",
+                "contactPoint": [
+                    {
+                        "@type": "ContactPoint",
+                        "telephone": "+55-18-3136-0050",
+                        "contactType": "technical support",
+                        "contactOption": "TollFree",
+                        "areaServed": [
+                            "BR"
+                        ],
+                        "availableLanguage": [
+                            "Portuguese"
+                        ]
+                    }
+                ],
+                "sameAs": [
+                    "https://www.facebook.com/traytecnologia", 
+                    "https://www.linkedin.com/company/tray", 
+                    "https://www.youtube.com/user/TraySistemas", 
+                    "https://twitter.com/traysistemas"
+                ]
+            }
+        </script>
 
         <nav class="navigation">
             <a href="#">Loja de Temas</a>

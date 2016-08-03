@@ -1,0 +1,64 @@
+---
+layout: post
+title:  "Banners"
+description: "Posições e tamanhos dos banners"
+date: 2016-08-03 12:44:00 -0300
+order: 3
+---
+
+Todos temas possibilitam adicionar banners a sua loja e assim impulsionar a sua loja. Os banners possibilitam destacar produtos e promoções e assim aumentar a conversão de sua loja.
+
+Se está começando em nossa plataforma, e ainda não sabe cadastrar banners em sua loja, [Clique aqui](http://atendimento.tray.com.br/hc/pt-br/articles/211174318-Cadastrar-Banners).
+
+## Posição e tamanhos
+
+Clique abaixo no link com o nome do seu tema para ver a **posição** e o **tamanho** dos banners do seu tema.
+
+**Yart**
+
+* [Yart - Baby]({{ site.url }}/pdf/doc-yart-diadospais.pdf){:target="_blank"}
+* [Yart - Car Parts]({{ site.url }}/pdf/doc-yart-carparts.pdf){:target="_blank"}
+* [Yart - Clothing]({{ site.url }}/pdf/doc-yart-clothing.pdf){:target="_blank"}
+* [Yart - Dia dos Pais]({{ site.url }}/pdf/doc-yart-diadospais.pdf){:target="_blank"}
+* [Yart - Diamonds]({{ site.url }}/pdf/doc-yart-diamonds.pdf){:target="_blank"}
+* [Yart - Eletronic 1]({{ site.url }}/pdf/doc-yart-eletronic1.pdf){:target="_blank"}
+* [Yart - Eletronic 2]({{ site.url }}/pdf/doc-yart-eletronic2.pdf){:target="_blank"}
+* [Yart - Fashion]({{ site.url }}/pdf/doc-yart-fashion.pdf){:target="_blank"}
+* [Yart - Library]({{ site.url }}/pdf/doc-yart-library.pdf){:target="_blank"}
+* [Yart - Multi]({{ site.url }}/pdf/doc-yart-multi.pdf){:target="_blank"}
+* [Yart - Pet Shop]({{ site.url }}/pdf/doc-yart-petshop.pdf){:target="_blank"}
+* [Yart - Sex Shop]({{ site.url }}/pdf/doc-yart-sexshop.pdf){:target="_blank"}
+* [Yart - Shine]({{ site.url }}/pdf/doc-yart-shine.pdf){:target="_blank"}
+* [Yart - Summer Camp]({{ site.url }}/pdf/doc-yart-summercamp.pdf){:target="_blank"}
+* [Yart - Wine]({{ site.url }}/pdf/doc-yart-wine.pdf){:target="_blank"}
+
+**BLB**
+
+* [BLB Eletronic]({{ site.url }}/pdf/doc-blb-eletronic.pdf){:target="_blank"}
+* [BLB Kids]({{ site.url }}/pdf/doc-blb-kids.pdf){:target="_blank"}
+
+**Yart - Default**
+
+* [Tema Automotivo]({{ site.url }}/pdf/doc-yart-default.pdf){:target="_blank"}
+* [Tema Brinquedos]({{ site.url }}/pdf/doc-yart-default.pdf){:target="_blank"}
+* [Tema Cama, Mesa e Banho]({{ site.url }}/pdf/doc-yart-default.pdf){:target="_blank"}
+* [Tema Default]({{ site.url }}/pdf/doc-yart-default.pdf){:target="_blank"}
+* [Tema Eletrônico]({{ site.url }}/pdf/doc-yart-default.pdf){:target="_blank"}
+* [Tema Esporte]({{ site.url }}/pdf/doc-yart-default.pdf){:target="_blank"}
+* [Tema Fashion]({{ site.url }}/pdf/doc-yart-default.pdf){:target="_blank"}
+* [Tema Saúde e Beleza]({{ site.url }}/pdf/doc-yart-default.pdf){:target="_blank"}
+
+**Clássicos**
+
+* [AMMARA]({{ site.url }}/pdf/doc-ammara.pdf){:target="_blank"}
+* [Cute Style]({{ site.url }}/pdf/doc-cute-style.pdf){:target="_blank"}
+* [EIGHT COSMETICS]({{ site.url }}/pdf/doc-eight-cosmetics.pdf){:target="_blank"}
+* [SPORT LIFE]({{ site.url }}/pdf/doc-sport-life.pdf){:target="_blank"}
+
+
+## Tamanhos sugeridos
+
+Alguns dos tamanhos informados são apenas sugestões, por isso, se precisar de banners maiores ou menores do que o sugerido, não existe problema algum.
+Você pode indentificar os tamanhos sugeridos na documentação, onde terá o texto **"(Sugerido)"** na frente do tamanho.
+
+Não recomendamos alterar os demais tamanhos, pois pode ocasionar na quebra do tema ou serem exibidos de forma desajustada.

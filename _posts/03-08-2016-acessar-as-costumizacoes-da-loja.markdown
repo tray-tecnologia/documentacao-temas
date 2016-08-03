@@ -3,6 +3,7 @@ layout: post
 title:  "Customizador do tema"
 description: "Acesse o painel de customizações do seu tema"
 date: 2016-01-01 00:00:00
+order: 1
 ---
 
 
