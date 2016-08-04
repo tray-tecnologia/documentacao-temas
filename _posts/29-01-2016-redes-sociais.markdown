@@ -1,16 +1,16 @@
 ---
 layout: post
 title:  "Redes Sociais"
-description: "Mostre o lado social de sua loja"
+description: "Integração com redes sociais"
 date: 2016-01-01 00:00:00
 order: 15
 ---
 
-No tema, é possível exibir links para as redes sociais de sua loja.
+Nos temas são exibidos links para as redes sociais de sua loja.
 
 ![Redes Sociais]({{ site.url }}/media/redes-sociais.png)
 
-Atualmente as seguintes redes sociais podem ser exibidas:
+Atualmente as seguintes redes sociais são exibidas:
 
 * Facebook
 * Twitter

@@ -1,14 +1,14 @@
 ---
 layout: post
 title:  "Informações do Rodapé"
-description: "Configurar informações sobre a sua loja e contatos"
+description: "Informações sobre sua loja e contatos"
 date: 2016-01-01 00:00:00
 order: 7
 ---
 
 As informações do rodapé podem ser administradas através da funcionalidade **Gerenciar Textos**, caso tenha dúvidas em relação a funcionalidade, [clique aqui](http://atendimento.tray.com.br/hc/pt-br/articles/211143488-Gerenciamento-de-Textos).
 
-Altere as informações através dos seguintes texto:
+Altere as informações através dos seguintes textos:
 
 | Texto        | AG           
 | ------------- |:-------------:|

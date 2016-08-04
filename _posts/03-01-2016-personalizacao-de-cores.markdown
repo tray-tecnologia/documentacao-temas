@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Personalização de cores"
-description: "Customize sua loja e deixe ela do seu jeito"
+description: "Customização de cores do layout e textos"
 date: 2016-01-01 00:00:00
 order: 13
 ---
@@ -14,6 +14,6 @@ Através do [Customizador](http://comoacessarocustomizar.com) é possível alter
 * Cor da fonte do Cabeçalho
 * Cor de fundo do Rodapé
 * Cor da fonte do Rodapé
-* Cor de fundo ([Veja também as opções de background](http://background.com))
+* Cor de fundo
 
 _As opções podem variar conforme o tema_

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="page-search">
+
+{% include head.html %}
+
+<script type="text/javascript">
+    {{ content }}
+</script>
+
+<body>
+
+    {% include header.html %}
+
+    <div class="container container-search">
+        <div class="page-content">
+            {% assign sorted_posts = site.posts | sort:"order" %} 
+                
+            {% for post in sorted_posts %} 
+                <div class="card" data-id="{{ forloop.index }}">
+                    <a href="{{ post.url }}">{{ post.title }}</a>
+                    <p>{{ post.description }}</p>
+                </div>
+                
+                <br>
+            {% endfor %}
+        </div>
+    </div>
+
+    {% include footer.html %}
+    
+    <script>
+        
+    </script>
+
+</body>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway" rel="stylesheet">
+
+</html>

@@ -1,13 +1,13 @@
 ---
 layout: post
 title:  "Customizador do tema"
-description: "Acesse o painel de customizações do seu tema"
+description: "Painel de customizações do seu tema"
 date: 2016-01-01 00:00:00
 order: 1
 ---
 
 
-Cada tema possuí configurações da loja que podem ser customizadas através do painel de customização, alguns itens podem ser alterados como por exemplo(_podendo variar_):
+Cada tema possuí configurações que podem ser alteradas através do painel de customização, alguns itens podem ser alterados como por exemplo(_podendo variar_):
 
 * Cores da loja
 * Vitrines
