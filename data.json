@@ -1,18 +1,14 @@
---- 
-layout: search
 ---
-
-{% assign sorted_posts = site.posts | sort:"order" %} 
-
-var posts = [
+---
+{% assign sorted_posts = site.posts | sort:"order" %}{"posts" : [
   {% for post in sorted_posts %}
     {
       "id": {{ forloop.index }},
       "title": "{{ post.title }}",
-      "category": "{{ post.description }}",
+      "description": "{{ post.description }}",
       "url": "{{ post.url }}",
-      "content": '{{ post.content | strip_html | strip_newlines }}'
+      "content": "{{ post.content | strip_html | strip_newlines }}"
     }
     {% unless forloop.last %},{% endunless %}
   {% endfor %}
-];
+]}

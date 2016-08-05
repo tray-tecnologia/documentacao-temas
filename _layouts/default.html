@@ -7,35 +7,34 @@
 
     {% include header.html %} 
     
-    {% if page.title == null %}
-        <div class="title-decoration">
-            <span class="title">Documenta&ccedil;&atilde;o de Temas</span>
-            <svg>
-                    <use xlink:href="/images/symbols.svg#wave"/>
-                </svg>
-            <span class="sub-title">Tire aqui suas d&uacute;vidas sobre seu tema</span>
-        </div>
-    {% endif %}
-
     <div class="container">
         <div class="page-content">
             <aside>
-
+    
                 <nav class="menu">
-
+    
                     <p>Artigos</p>
-
-                    {% assign sorted_posts = site.posts | sort:"order" %} 
-                    {% for post in sorted_posts %}
-                        <div class="item">
-                            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ forloop.index }} - {{ post.title }}</a>
-                        </div>
+    
+                    {% assign sorted_posts = site.posts | sort:"order" %} {% for post in sorted_posts %}
+                    <div class="item">
+                        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ forloop.index }} - {{ post.title }}</a>
+                    </div>
                     {% endfor %}
-
                 </nav>
-
+    
             </aside>
             <section>
+                <p class="section-title">Tire aqui suas dúvidas sobre seu tema</p>
+                <div class="box-search">
+                    <label for="search">
+                        <input type="search" id="search" placeholder="Qual a sua dúvida?">
+                        <button>
+                            <svg>
+                                <use xlink:href="/images/symbols.svg#search"/>
+                            </svg>
+                        </button>
+                    </label>
+                </div>
                 {{ content }}
             </section>
         </div>
@@ -45,4 +44,5 @@
 
 </body>
 <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway" rel="stylesheet">
+<script type="text/javascript" src="/js/search.js"></script>
 </html>
