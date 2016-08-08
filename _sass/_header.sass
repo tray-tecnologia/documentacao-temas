@@ -59,6 +59,7 @@
         font-size: 0
         
         svg
+            max-width: 100%
             width: 318px
             height: 83px
             
@@ -81,12 +82,16 @@
                 background: #0b7d9d
                 
 /* Mobile */
+@media (max-width: 991px) and (min-width: 768px)
+    .site-header .site-title svg
+        max-width: 260px
+
 @media (max-width: 767px)
     .site-header
     
         .site-title
             display: block !important
-            width: 110px !important
+            width: 190px !important
             margin: 0 auto
             text-align: center
             

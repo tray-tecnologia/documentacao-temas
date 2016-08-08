@@ -29,11 +29,18 @@
     
             svg
                 height: 60px
-                width: 100%
+                width: inherit
                 
             &:nth-child(2) svg
+                width: 140px
                 height: 40px
                 margin-left: 10px
+                
+            &:nth-child(1)
+                text-align: right
+                
+            &:nth-child(2)
+                text-align: left
             
     .about
         width: 65%
@@ -55,7 +62,7 @@
         .logos,
         .about
             display: block
-            width: 100%
+            width: inherit
             max-width: inherit
             
         .about

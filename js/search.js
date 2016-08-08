@@ -1,10 +1,11 @@
 /* instance variables */
 var baseUrl = window.location.origin;
+var showSearch = false;
 
 /* instance objects */
 var inputSearch = document.getElementById("search");
 var boxSearchResult = document.getElementById("search-result");
-var sectionArticle = document.querySelectorAll("section > article");
+var sectionArticle = document.getElementById("content-main");
 
 function addClass(el, className) {
     if (el.classList) {
@@ -21,17 +22,37 @@ function removeClass(el, className) {
         el.className = el.className.replace(new RegExp('(^|\\b)' + className.split(' ').join('|') + '(\\b|$)', 'gi'), ' ');
 }
 
-function verifyExist(post, text){
+function removeAccents(str) {
+  var accents    = 'ÀÁÂÃÄÅàáâãäåÒÓÔÕÕÖØòóôõöøÈÉÊËèéêëðÇçÐÌÍÎÏìíîïÙÚÛÜùúûüÑñŠšŸÿýŽž';
+  var accentsOut = "AAAAAAaaaaaaOOOOOOOooooooEEEEeeeeeCcDIIIIiiiiUUUUuuuuNnSsYyyZz";
+  str = str.split('');
+  var strLen = str.length;
+  var i, x;
+  for (i = 0; i < strLen; i++) {
+    if ((x = accents.indexOf(str[i])) != -1) {
+      str[i] = accentsOut[x];
+    }
+  }
+  return str.join('');
+}
 
-    if(post.title.indexOf(text) >= 0){
+
+function verifyExist(post, text){
+    
+    text = removeAccents(text.toLowerCase());
+
+    var title = removeAccents(post.title.toLowerCase());
+    if(title.indexOf(text) >= 0){
         return true;
     }
     
-    if(post.description.indexOf(text) >= 0){
+    var description = removeAccents(post.description.toLowerCase());
+    if(description.indexOf(text) >= 0){
         return true;
     }
     
-    if(post.content.indexOf(text) >= 0){
+    var content = removeAccents(post.content.toLowerCase());
+    if(content.indexOf(text) >= 0){
         return true;
     }
     
@@ -44,16 +65,24 @@ function verifyContent(text){
     var posts = data.posts
     var posts_lenght = posts.length;
     
+    var count = 0;
+    
     for (i = 0; i < posts_lenght; i++) {
         var exist = verifyExist(posts[i], text);
         
         if(exist){
             html += '<div class="post-link"></a><a href="'+posts[i]['url']+'"><h2>'+posts[i]['title']+'</h2></a><span>'+posts[i]['description']+'</span></div>'
+            count++;
         }
-        
-        boxSearchResult.innerHTML = html;
-
     }
+    
+    if(count == 1){
+        html += '<p>Resultados: <b>1 resultado encontrado</b></p>';
+    }else{
+        html += '<p>Resultados: <b>'+count+' resultados encontrado</b></p>';
+    }
+    
+    boxSearchResult.innerHTML = html;
 }
 
 function getData(){
@@ -62,17 +91,16 @@ function getData(){
     
     request.onload = function() {
       if (request.status >= 200 && request.status < 400) {
-        // Success!
         var data =request.responseText;
         sessionStorage.setItem("posts", data);
         verifyContent();
       } else {
-        // We reached our target server, but it returned an error
+        console.log("Ops! Ocorreu um erro! CODE: 001");
       }
     };
     
     request.onerror = function() {
-      // There was a connection error of some sort
+      console.log("Ops! Ocorreu um erro! CODE: 002");
     };
     
     request.send();
@@ -84,18 +112,16 @@ if(sessionStorage.getItem("posts") == null){
 
 inputSearch.addEventListener("input", function(){
     var text = this.value;
-    var showSearch = false;
     
-    //boxSearchResult sectionArticle
     if(text.length > 0 && showSearch == false){
-        addClass(boxSearchResult, 'show');
         addClass(sectionArticle, 'hide');
+        addClass(boxSearchResult, 'show');
         showSearch = true;
     }else if(text.length == 0 && showSearch == true){
         removeClass(boxSearchResult, 'show');
         removeClass(sectionArticle, 'hide');
         showSearch = false;
     }
-    
+
     verifyContent(text);
 });

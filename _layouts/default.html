@@ -9,30 +9,33 @@
     
     <div class="container">
         <div class="page-content">
-            <aside>
+            <aside role="complementary">
     
-                <nav class="menu">
-    
+                <nav class="menu" role="navigation">
+                    
                     <p>Artigos</p>
-    
-                    {% assign sorted_posts = site.posts | sort:"order" %} {% for post in sorted_posts %}
-                    <div class="item">
-                        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ forloop.index }} - {{ post.title }}</a>
+                    
+                    <div role="menubar">
+                        {% assign sorted_posts = site.posts | sort:"order" %} {% for post in sorted_posts %}
+                        <div class="item" >
+                            <a class="post-link" role="menuitem" href="{{ post.url | prepend: site.baseurl }}">{{ forloop.index }} - {{ post.title }}</a>
+                        </div>
+                        {% endfor %}
                     </div>
-                    {% endfor %}
                 </nav>
     
             </aside>
-            <section>
+            <section role="main">
                 <p class="section-title">Tire aqui suas dúvidas sobre seu tema</p>
                 <div class="box-search">
                     <label for="search">
-                        <input type="search" id="search" placeholder="Qual a sua dúvida?">
                         <button>
                             <svg>
                                 <use xlink:href="/images/symbols.svg#search"/>
                             </svg>
                         </button>
+                        
+                        <input type="search" id="search" placeholder="Qual a sua dúvida?" autocomplete="off">
                     </label>
                 </div>
                 <div class="box-search-result" id="search-result">
@@ -51,6 +54,6 @@
     {% include footer.html %}
 
 </body>
-<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Raleway" rel="stylesheet">
-<script type="text/javascript" src="/js/search.js"></script>
+<link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
+<script type="text/javascript" src="/js/search.min.js"></script>
 </html>
