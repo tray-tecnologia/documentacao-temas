@@ -2,7 +2,7 @@
 layout: post
 title:  "Categorias"
 description: "Ordem e posicionamento das categorias"
-date: 2016-01-01 00:00:00
+date: 2016-08-08 16:52:00
 order: 5
 ---
 

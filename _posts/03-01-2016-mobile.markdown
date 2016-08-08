@@ -10,6 +10,6 @@ Todos os temas são responsivos, se adequando perfeitamente a smartphones, table
 
 O painel de customização, não apresenta configurações específicas para o mobile. O tema quando apresentado em um smartphone ou tablet segue as mesmas cores e configurações da página apresentada em um desktop.
 
-Existem configurações de banners exclusivas para mobile, leia mais em [Banners](http://banner.com).
+Existem configurações de banners exclusivas para mobile, leia mais em [Banners]({% post_url 08-08-2016-banners %})
 
 ![Mobile]({{ site.url }}/media/mobile.png)

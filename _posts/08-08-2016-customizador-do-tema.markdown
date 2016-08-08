@@ -2,10 +2,9 @@
 layout: post
 title:  "Customizador do tema"
 description: "Painel de customizações do seu tema"
-date: 2016-01-01 00:00:00
+date: 2016-08-08 16:53:00
 order: 1
 ---
-
 
 Cada tema possuí configurações que podem ser alteradas através do painel de customização, alguns itens podem ser alterados como por exemplo(_podendo variar_):
 

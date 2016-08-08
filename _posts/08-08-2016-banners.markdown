@@ -2,7 +2,7 @@
 layout: post
 title:  "Banners"
 description: "Posições e tamanhos dos banners"
-date: 2016-08-03 12:44:00 -0300
+date: 2016-08-08 12:44:00 -0300
 order: 3
 ---
 
