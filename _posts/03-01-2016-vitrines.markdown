@@ -3,7 +3,7 @@ layout: post
 title:  "Vitrines"
 description: "Vitrines e produtos"
 date: 2016-01-01 00:00:00
-order: 17
+order: 5
 ---
 
 Os produtos a serem exibidos nas vitrines podem ser configurados conforme as seguinte opções:

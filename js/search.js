@@ -78,6 +78,8 @@ function verifyContent(text){
     
     if(count == 1){
         html += '<p>Resultados: <b>1 resultado encontrado</b></p>';
+    }else if(count == 0){
+        html += '<p>Resultados: <b>Nenhum</b> resultado encontrado</p>';
     }else{
         html += '<p>Resultados: <b>'+count+' resultados encontrado</b></p>';
     }
@@ -124,4 +126,8 @@ inputSearch.addEventListener("input", function(){
     }
 
     verifyContent(text);
+});
+
+document.getElementById("site-footer").addEventListener("dblclick", function(){
+    sessionStorage.clear();
 });

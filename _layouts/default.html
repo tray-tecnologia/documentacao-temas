@@ -16,9 +16,9 @@
                     <p>Artigos</p>
                     
                     <div role="menubar">
-                        {% assign sorted_posts = site.posts | sort:"order" %} {% for post in sorted_posts %}
+                        {% assign sorted_posts = site.posts | sort: 'title' %} {% for post in sorted_posts %}
                         <div class="item" >
-                            <a class="post-link" role="menuitem" href="{{ post.url | prepend: site.baseurl }}">{{ forloop.index }} - {{ post.title }}</a>
+                            <a class="post-link" role="menuitem" href="{{ post.url | prepend: site.baseurl }}"> {{ post.title }}</a>
                         </div>
                         {% endfor %}
                     </div>
@@ -38,14 +38,7 @@
                         <input type="search" id="search" placeholder="Qual a sua dúvida?" autocomplete="off">
                     </label>
                 </div>
-                <div class="box-search-result" id="search-result">
-                    <div class="post-link">
-                        <a href="/2015/12/31/acessar-as-costumizacoes-da-loja.html">
-                            <h2>Customizador do tema</h2>
-                        </a>
-                        <span>Painel de customizações do seu tema</span>
-                    </div>
-                </div>
+                <div class="box-search-result" id="search-result"></div>
                 {{ content }}
             </section>
         </div>

@@ -3,7 +3,6 @@
 {% assign sorted_posts = site.posts | sort:"order" %}{"posts" : [
   {% for post in sorted_posts %}
     {
-      "id": {{ forloop.index }},
       "title": "{{ post.title }}",
       "description": "{{ post.description }}",
       "url": "{{ post.url }}",
