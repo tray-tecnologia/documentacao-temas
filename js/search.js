@@ -1,5 +1,5 @@
-/* instance variables */
 var baseUrl = window.location.origin;
+/* var status if the search is being shown */
 var showSearch = false;
 
 /* instance objects */
@@ -40,19 +40,11 @@ function removeAccents(str) {
 function verifyExist(post, text){
     
     text = removeAccents(text.toLowerCase());
-
     var title = removeAccents(post.title.toLowerCase());
-    if(title.indexOf(text) >= 0){
-        return true;
-    }
-    
     var description = removeAccents(post.description.toLowerCase());
-    if(description.indexOf(text) >= 0){
-        return true;
-    }
-    
     var content = removeAccents(post.content.toLowerCase());
-    if(content.indexOf(text) >= 0){
+    
+    if((title.indexOf(text) >= 0) || (description.indexOf(text) >= 0) || (content.indexOf(text) >= 0)){
         return true;
     }
     
@@ -93,9 +85,8 @@ function getData(){
     
     request.onload = function() {
       if (request.status >= 200 && request.status < 400) {
-        var data =request.responseText;
+        var data = request.responseText;
         sessionStorage.setItem("posts", data);
-        verifyContent();
       } else {
         console.log("Ops! Ocorreu um erro! CODE: 001");
       }
