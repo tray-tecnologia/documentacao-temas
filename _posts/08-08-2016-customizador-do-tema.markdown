@@ -6,7 +6,7 @@ date: 2016-08-08 16:53:00
 order: 1
 ---
 
-Cada tema possuí configurações que podem ser alteradas através do painel de customização, alguns itens podem ser alterados como por exemplo(_podendo variar_):
+Cada tema possui configurações que podem ser alteradas através do painel de customização, alguns itens podem ser alterados como por exemplo:
 
 * Cores da loja
 * Vitrines
@@ -14,6 +14,7 @@ Cada tema possuí configurações que podem ser alteradas através do painel de 
 * Estrutura
 * Customização CSS
 
+_Observação: os itens customizáveis podem variar conforme o tema_ <br><br>
 Para acessar este painel, voce deve seguir os seguintes passos:
 
 1. Acesse o painel administrativo de sua loja.

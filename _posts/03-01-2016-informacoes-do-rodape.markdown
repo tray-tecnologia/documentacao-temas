@@ -19,6 +19,6 @@ Altere as informações através dos seguintes textos:
 |E-Mail 2|**ag_email_2**|
 |Informação Institucional|**ag_mensagem_rodape**|
 
-Se você está procurando sobre links institucionais, [Clique Aqui](http://linkpaginaspersonalizadas.com)
+Se você está procurando sobre links institucionais, [Clique Aqui]({% post_url 03-01-2016-paginas-personalizadas %})
 
 _As opções podem variar conforme o tema_

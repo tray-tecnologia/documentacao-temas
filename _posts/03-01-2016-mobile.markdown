@@ -6,7 +6,7 @@ date: 2016-01-01 00:00:00
 order: 9
 ---
 
-Todos os temas são responsivos, se adequando perfeitamente a smartphones, tables e desktops.
+Todos os temas são responsivos, se adequando perfeitamente a smartphones, tablet's e desktops.
 
 O painel de customização, não apresenta configurações específicas para o mobile. O tema quando apresentado em um smartphone ou tablet segue as mesmas cores e configurações da página apresentada em um desktop.
 

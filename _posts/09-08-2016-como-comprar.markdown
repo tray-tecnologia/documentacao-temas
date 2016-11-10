@@ -6,7 +6,7 @@ date: 2016-08-09 15:08:00
 order: 2
 ---
 
-Este artigo irá mostrar passo a passo como adquirir um tema para sua loja Tray.
+Este artigo irá mostrar passo a passo como adquirir um tema para sua loja Tray.<br>
 _Observação: Para adquirir um tema, você deve ter uma loja Tray já contratada._
 
 Acesse a [Loja de Temas(http://temas.tray.com.br/)](http://temas.tray.com.br/) e clique no tema escolhido

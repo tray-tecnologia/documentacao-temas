@@ -2,7 +2,7 @@
 layout: post
 title:  "Banners"
 description: "Posições e tamanhos dos banners"
-date: 2016-08-08 12:44:00 -0300
+date: 2016-08-08 08:30:00 -0300
 order: 3
 ---
 
@@ -14,47 +14,46 @@ Caso esteja conhecendo a plataforma da Tray e ainda não sabe como cadastrar ban
 
 Clique abaixo no link com o nome do seu tema para ver a **posição** e o **tamanho** dos banners do seu tema.
 
-**Yart**
+**Pagos**
 
-* [Yart - Baby]({{ site.url }}/pdf/doc-yart-diadospais.pdf){:target="_blank"}
-* [Yart - Car Parts]({{ site.url }}/pdf/doc-yart-carparts.pdf){:target="_blank"}
-* [Yart - Clothing]({{ site.url }}/pdf/doc-yart-clothing.pdf){:target="_blank"}
-* [Yart - Dia dos Pais]({{ site.url }}/pdf/doc-yart-diadospais.pdf){:target="_blank"}
-* [Yart - Diamonds]({{ site.url }}/pdf/doc-yart-diamonds.pdf){:target="_blank"}
-* [Yart - Eletronic 1]({{ site.url }}/pdf/doc-yart-eletronic1.pdf){:target="_blank"}
-* [Yart - Eletronic 2]({{ site.url }}/pdf/doc-yart-eletronic2.pdf){:target="_blank"}
-* [Yart - Fashion]({{ site.url }}/pdf/doc-yart-fashion.pdf){:target="_blank"}
-* [Yart - Library]({{ site.url }}/pdf/doc-yart-library.pdf){:target="_blank"}
-* [Yart - Multi]({{ site.url }}/pdf/doc-yart-multi.pdf){:target="_blank"}
-* [Yart - Pet Shop]({{ site.url }}/pdf/doc-yart-petshop.pdf){:target="_blank"}
-* [Yart - Sex Shop]({{ site.url }}/pdf/doc-yart-sexshop.pdf){:target="_blank"}
-* [Yart - Shine]({{ site.url }}/pdf/doc-yart-shine.pdf){:target="_blank"}
-* [Yart - Summer Camp]({{ site.url }}/pdf/doc-yart-summercamp.pdf){:target="_blank"}
-* [Yart - Wine]({{ site.url }}/pdf/doc-yart-wine.pdf){:target="_blank"}
+* [Baby]({{ site.url }}/pdf/baby-banners.pdf){:target="_blank"}
+* [Bike]({{ site.url }}/pdf/bike-banners.pdf){:target="_blank"}
+* [Black Friday]({{ site.url }}/pdf/blackfriday-banners.pdf){:target="_blank"}
+* [Black Friday II]({{ site.url }}/pdf/blackfridayii-banners.pdf){:target="_blank"}
+* [BLB - Eletronic]({{ site.url }}/pdf/blb-eletronic-banners.pdf){:target="_blank"}
+* [BLB - Kids]({{ site.url }}/pdf/blb-kids-banners.pdf){:target="_blank"}
+* [Car Parts]({{ site.url }}/pdf/carparts-banners.pdf){:target="_blank"}
+* [Casa & Decor]({{ site.url }}/pdf/cerveja-banners.pdf){:target="_blank"}
+* [Cerveja]({{ site.url }}/pdf/cerveja-banners.pdf){:target="_blank"}
+* [Clothing]({{ site.url }}/pdf/clothing-banners.pdf){:target="_blank"}
+* [Cupcake]({{ site.url }}/pdf/cupcake-banners.pdf){:target="_blank"}
+* [Dia dos Pais]({{ site.url }}/pdf/diadospais-banners.pdf){:target="_blank"}
+* [Diamonds]({{ site.url }}/pdf/diamonds-banners.pdf){:target="_blank"}
+* [Eletronic I]({{ site.url }}/pdf/eletronic-i-banners.pdf){:target="_blank"}
+* [Eletronic II]({{ site.url }}/pdf/eletronic-ii-banners.pdf){:target="_blank"}
+* [Fitness]({{ site.url }}/pdf/fitness-banners.pdf){:target="_blank"}
+* [Games]({{ site.url }}/pdf/games-banners.pdf){:target="_blank"}
+* [Library]({{ site.url }}/pdf/library-banners.pdf){:target="_blank"}
+* [Material de Construção]({{ site.url }}/pdf/material-banners.pdf){:target="_blank"}
+* [Multi]({{ site.url }}/pdf/multi-banners.pdf){:target="_blank"}
+* [Papelaria]({{ site.url }}/pdf/papelaria-banners.pdf){:target="_blank"}
+* [Perfumaria]({{ site.url }}/pdf/perfumaria-banners.pdf){:target="_blank"}
+* [Petshop]({{ site.url }}/pdf/petshop-banners.pdf){:target="_blank"}
+* [Sapatos Femininos]({{ site.url }}/pdf/sapatos-femininos-banners.pdf){:target="_blank"}
+* [Sex Shop]({{ site.url }}/pdf/sexshop-banners.pdf){:target="_blank"}
+* [Shine]({{ site.url }}/pdf/shine-banners.pdf){:target="_blank"}
+* [Summer Camp]({{ site.url }}/pdf/summer-banners.pdf){:target="_blank"}
+* [Wine]({{ site.url }}/pdf/wine-banners.pdf){:target="_blank"}
 
-**BLB**
 
-* [BLB Eletronic]({{ site.url }}/pdf/doc-blb-eletronic.pdf){:target="_blank"}
-* [BLB Kids]({{ site.url }}/pdf/doc-blb-kids.pdf){:target="_blank"}
+**Grátis**
 
-**Yart - Default**
-
-* [Tema Automotivo]({{ site.url }}/pdf/doc-yart-default.pdf){:target="_blank"}
-* [Tema Brinquedos]({{ site.url }}/pdf/doc-yart-default.pdf){:target="_blank"}
-* [Tema Cama, Mesa e Banho]({{ site.url }}/pdf/doc-yart-default.pdf){:target="_blank"}
-* [Tema Default]({{ site.url }}/pdf/doc-yart-default.pdf){:target="_blank"}
-* [Tema Eletrônico]({{ site.url }}/pdf/doc-yart-default.pdf){:target="_blank"}
-* [Tema Esporte]({{ site.url }}/pdf/doc-yart-default.pdf){:target="_blank"}
-* [Tema Fashion]({{ site.url }}/pdf/doc-yart-default.pdf){:target="_blank"}
-* [Tema Saúde e Beleza]({{ site.url }}/pdf/doc-yart-default.pdf){:target="_blank"}
-
-**Clássicos**
-
-* [AMMARA]({{ site.url }}/pdf/doc-ammara.pdf){:target="_blank"}
-* [Cute Style]({{ site.url }}/pdf/doc-cute-style.pdf){:target="_blank"}
-* [EIGHT COSMETICS]({{ site.url }}/pdf/doc-eight-cosmetics.pdf){:target="_blank"}
-* [SPORT LIFE]({{ site.url }}/pdf/doc-sport-life.pdf){:target="_blank"}
-
+* [Ammara]({{ site.url }}/pdf/ammara-banners.pdf){:target="_blank"}
+* [Cute Style]({{ site.url }}/pdf/cutestyle-banners.pdf){:target="_blank"}
+* [Default]({{ site.url }}/pdf/default-banners.pdf){:target="_blank"}
+* [Eight Cosmetics]({{ site.url }}/pdf/eightcosmetics-banners.pdf){:target="_blank"}
+* [Fashion]({{ site.url }}/pdf/fashion-banners.pdf){:target="_blank"}
+* [Sport Life]({{ site.url }}/pdf/sportlife-banners.pdf){:target="_blank"}
 
 ## Tamanhos sugeridos
 
