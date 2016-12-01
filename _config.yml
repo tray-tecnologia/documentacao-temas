@@ -11,8 +11,8 @@ title: Documentação - Loja de Temas Tray
 email: your-email@domain.com
 description: > # this means to ignore newlines until "baseurl:"
   Documentação oficial da Loja de Temas da Tray E-commerce, tire aqui todas as suas dúvidas
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://documentacao-temas-ezanattatray.c9users.io" # the base hostname & protocol for your site
+baseurl: "/documentacao-temas" # the subpath of your site, e.g. /blog
+url: "https://tray-tecnologia.github.io/documentacao-temas/" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
