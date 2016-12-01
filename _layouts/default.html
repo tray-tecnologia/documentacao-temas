@@ -2,7 +2,8 @@
 <html lang="pt-br">
 {% include head.html %}
 <body>
-
+    
+    {% include symbols.html %}
     {% include header.html %} 
     
     <div class="container">
@@ -29,7 +30,7 @@
                     <label for="search">
                         <button>
                             <svg>
-                                <use xlink:href="/images/symbols.svg#search"/>
+                                <use xlink:href="#search"/>
                             </svg>
                         </button>
                         
@@ -46,5 +47,5 @@
 
 </body>
 <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
-<script type="text/javascript" src="/js/search.min.js"></script>
+<script type="text/javascript" src="{{ site.baseurl }}/js/search.min.js"></script>
 </html>
