@@ -1,4 +1,4 @@
-var baseUrl = window.location.origin;
+var baseUrl = window.location.origin + '/documentacao-temas/';
 /* var status if the search is being shown */
 var showSearch = false;
 
@@ -8,32 +8,41 @@ var boxSearchResult = document.getElementById("search-result");
 var sectionArticle = document.getElementById("content-main");
 
 function addClass(el, className) {
+    
     if (el.classList) {
         el.classList.add(className);
     }else{
         el.className += ' ' + className;
     }
+    
 }
 
 function removeClass(el, className) {
+    
     if (el.classList)
         el.classList.remove(className);
     else
         el.className = el.className.replace(new RegExp('(^|\\b)' + className.split(' ').join('|') + '(\\b|$)', 'gi'), ' ');
+        
 }
 
 function removeAccents(str) {
-  var accents    = 'ÀÁÂÃÄÅàáâãäåÒÓÔÕÕÖØòóôõöøÈÉÊËèéêëðÇçÐÌÍÎÏìíîïÙÚÛÜùúûüÑñŠšŸÿýŽž';
-  var accentsOut = "AAAAAAaaaaaaOOOOOOOooooooEEEEeeeeeCcDIIIIiiiiUUUUuuuuNnSsYyyZz";
-  str = str.split('');
-  var strLen = str.length;
-  var i, x;
-  for (i = 0; i < strLen; i++) {
-    if ((x = accents.indexOf(str[i])) != -1) {
-      str[i] = accentsOut[x];
+  
+    var accents    = 'ÀÁÂÃÄÅàáâãäåÒÓÔÕÕÖØòóôõöøÈÉÊËèéêëðÇçÐÌÍÎÏìíîïÙÚÛÜùúûüÑñŠšŸÿýŽž';
+    var accentsOut = "AAAAAAaaaaaaOOOOOOOooooooEEEEeeeeeCcDIIIIiiiiUUUUuuuuNnSsYyyZz";
+    str = str.split('');
+    var strLen = str.length;
+    var i, x;
+  
+    for (i = 0; i < strLen; i++) {
+    
+        if ((x = accents.indexOf(str[i])) != -1) {
+            str[i] = accentsOut[x];
+        }
+    
     }
-  }
-  return str.join('');
+    
+    return str.join('');
 }
 
 
@@ -52,14 +61,15 @@ function verifyExist(post, text){
 }
 
 function verifyContent(text){
+    
     var html = '';
     var data = JSON.parse(sessionStorage.getItem("posts"));
     var posts = data.posts
     var posts_lenght = posts.length;
-    
     var count = 0;
     
     for (i = 0; i < posts_lenght; i++) {
+        
         var exist = verifyExist(posts[i], text);
         
         if(exist){
@@ -80,20 +90,26 @@ function verifyContent(text){
 }
 
 function getData(){
+    
     var request = new XMLHttpRequest();
     request.open('GET', baseUrl+'/data.json', true);
     
     request.onload = function() {
-      if (request.status >= 200 && request.status < 400) {
-        var data = request.responseText;
-        sessionStorage.setItem("posts", data);
-      } else {
-        console.log("Ops! Ocorreu um erro! CODE: 001");
-      }
+        
+        if (request.status >= 200 && request.status < 400) {
+            
+            var data = request.responseText;
+            sessionStorage.setItem("posts", data);
+            
+        } else {
+        
+            console.log("Ops! Ocorreu um erro! CODE: 001");
+        }
+        
     };
     
     request.onerror = function() {
-      console.log("Ops! Ocorreu um erro! CODE: 002");
+        console.log("Ops! Ocorreu um erro! CODE: 002");
     };
     
     request.send();
@@ -104,19 +120,27 @@ if(sessionStorage.getItem("posts") == null){
 }
 
 inputSearch.addEventListener("input", function(){
+    
     var text = this.value;
     
+    console.log(text);
+    
     if(text.length > 0 && showSearch == false){
+        
         addClass(sectionArticle, 'hide');
         addClass(boxSearchResult, 'show');
         showSearch = true;
+        
     }else if(text.length == 0 && showSearch == true){
+        
         removeClass(boxSearchResult, 'show');
         removeClass(sectionArticle, 'hide');
         showSearch = false;
+    
     }
 
     verifyContent(text);
+    
 });
 
 document.getElementById("site-footer").addEventListener("dblclick", function(){

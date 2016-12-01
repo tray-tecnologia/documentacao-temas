@@ -1,51 +1,55 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-{% include head.html %}
-<body>
     
-    {% include symbols.html %}
-    {% include header.html %} 
-    
-    <div class="container">
-        <div class="page-content">
-            <aside role="complementary">
-    
-                <nav class="menu" role="navigation">
-                    
-                    <p>Artigos</p>
-                    
-                    <div role="menubar">
-                        {% assign sorted_posts = site.posts | sort: 'title' %} {% for post in sorted_posts %}
-                        <div class="item" >
-                            <a class="post-link" role="menuitem" href="{{ post.url | prepend: site.baseurl }}"> {{ post.title }}</a>
-                        </div>
-                        {% endfor %}
-                    </div>
-                </nav>
-    
-            </aside>
-            <section role="main">
-                <p class="section-title">Tire aqui suas dúvidas sobre seu tema</p>
-                <div class="box-search">
-                    <label for="search">
-                        <button>
-                            <svg>
-                                <use xlink:href="#search"/>
-                            </svg>
-                        </button>
+    {% include head.html %}
+
+    <body>
+        
+        {% include symbols.html %}
+        {% include header.html %} 
+        
+        <div class="container">
+            <div class="page-content">
+                <aside role="complementary">
+        
+                    <nav class="menu" role="navigation">
                         
-                        <input type="search" id="search" placeholder="Qual a sua dúvida?" autocomplete="off">
-                    </label>
-                </div>
-                <div class="box-search-result" id="search-result"></div>
-                {{ content }}
-            </section>
+                        <p>Artigos</p>
+                        
+                        <div role="menubar">
+                            {% assign sorted_posts = site.posts | sort: 'title' %} {% for post in sorted_posts %}
+                            <div class="item" >
+                                <a class="post-link" role="menuitem" href="{{ post.url | prepend: site.baseurl }}"> {{ post.title }}</a>
+                            </div>
+                            {% endfor %}
+                        </div>
+                    </nav>
+        
+                </aside>
+                <section role="main">
+                    <p class="section-title">Tire aqui suas dúvidas sobre seu tema</p>
+                    <div class="box-search">
+                        <label for="search">
+                            <button>
+                                <svg>
+                                    <use xlink:href="#search"/>
+                                </svg>
+                            </button>
+                            
+                            <input type="search" id="search" placeholder="Qual a sua dúvida?" autocomplete="off">
+                        </label>
+                    </div>
+                    <div class="box-search-result" id="search-result"></div>
+                    {{ content }}
+                </section>
+            </div>
         </div>
-    </div>
+    
+        {% include footer.html %}
+    
+    </body>
 
-    {% include footer.html %}
-
-</body>
-<link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
-<script type="text/javascript" src="{{ site.baseurl }}/js/search.min.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
+    <script src="{{ site.baseurl }}/js/search.min.js"></script>
+    
 </html>
