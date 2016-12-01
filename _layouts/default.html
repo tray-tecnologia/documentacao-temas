@@ -36,7 +36,7 @@
                                 </svg>
                             </button>
                             
-                            <input type="search" id="search" placeholder="Qual a sua dúvida?" autocomplete="off">
+                            <input type="search" id="search" placeholder="Qual a sua dúvida?" autocomplete="off" oninput="filterSearch(this)">
                         </label>
                     </div>
                     <div class="box-search-result" id="search-result"></div>
@@ -50,6 +50,6 @@
     </body>
 
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Raleway" rel="stylesheet">
-    <script src="{{ site.baseurl }}/js/search.js"></script>
+    <script src="{{ site.baseurl }}/js/search.min.js"></script>
     
 </html>

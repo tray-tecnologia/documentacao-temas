@@ -119,11 +119,9 @@ if(sessionStorage.getItem("posts") == null){
     getData();
 }
 
-inputSearch.addEventListener("input", function(){
+function filterSearch (e){
     
-    var text = this.value;
-    
-    console.log(text);
+    var text = e.value;
     
     if(text.length > 0 && showSearch == false){
         
@@ -141,7 +139,7 @@ inputSearch.addEventListener("input", function(){
 
     verifyContent(text);
     
-});
+}
 
 document.getElementById("site-footer").addEventListener("dblclick", function(){
     sessionStorage.clear();
