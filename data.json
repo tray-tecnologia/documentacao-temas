@@ -5,7 +5,7 @@
     {
       "title": "{{ post.title }}",
       "description": "{{ post.description }}",
-      "url": "{{ post.url }}",
+      "url": "/documentacao-temas{{ post.url }}",
       "content": "{{ post.content | strip_html | strip_newlines }}"
     }
     {% unless forloop.last %},{% endunless %}
