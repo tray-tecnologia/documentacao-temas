@@ -33,7 +33,6 @@ Clique abaixo no link com o nome do seu tema para ver a **posição** e o **tama
 * [Eletronic II]({{ site.url }}/pdf/eletronic-ii-banners.pdf){:target="_blank"}
 * [Fitness]({{ site.url }}/pdf/fitness-banners.pdf){:target="_blank"}
 * [Games]({{ site.url }}/pdf/games-banners.pdf){:target="_blank"}
-* [Geek]({{ site.url }}/pdf/geek-banners.pdf){:target="_blank"}
 * [Kids]({{ site.url }}/pdf/kids-banners.pdf){:target="_blank"}
 * [Library]({{ site.url }}/pdf/library-banners.pdf){:target="_blank"}
 * [Material de Construção]({{ site.url }}/pdf/material-banners.pdf){:target="_blank"}
@@ -56,6 +55,7 @@ Clique abaixo no link com o nome do seu tema para ver a **posição** e o **tama
 * [Default]({{ site.url }}/pdf/default-banners.pdf){:target="_blank"}
 * [Eight Cosmetics]({{ site.url }}/pdf/eightcosmetics-banners.pdf){:target="_blank"}
 * [Fashion]({{ site.url }}/pdf/fashion-banners.pdf){:target="_blank"}
+* [Geek]({{ site.url }}/pdf/geek-banners.pdf){:target="_blank"}
 * [Sport Life]({{ site.url }}/pdf/sportlife-banners.pdf){:target="_blank"}
 
 ## Tamanhos sugeridos
