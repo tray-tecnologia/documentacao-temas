@@ -16,6 +16,7 @@ Clique abaixo no link com o nome do seu tema para ver a **posição** e o **tama
 
 **Pagos**
 
+* [Artesanato]({{ site.url }}/pdf/art-banners.pdf){:target="_blank"}
 * [Baby]({{ site.url }}/pdf/baby-banners.pdf){:target="_blank"}
 * [Bike]({{ site.url }}/pdf/bike-banners.pdf){:target="_blank"}
 * [Black Friday]({{ site.url }}/pdf/blackfriday-banners.pdf){:target="_blank"}
@@ -24,6 +25,7 @@ Clique abaixo no link com o nome do seu tema para ver a **posição** e o **tama
 * [BLB - Kids]({{ site.url }}/pdf/blb-kids-banners.pdf){:target="_blank"}
 * [Car Parts]({{ site.url }}/pdf/carparts-banners.pdf){:target="_blank"}
 * [Casa & Decor]({{ site.url }}/pdf/cerveja-banners.pdf){:target="_blank"}
+* [Celular Shop]({{ site.url }}/pdf/celular-banners.pdf){:target="_blank"}
 * [Cerveja]({{ site.url }}/pdf/cerveja-banners.pdf){:target="_blank"}
 * [Clothing]({{ site.url }}/pdf/clothing-banners.pdf){:target="_blank"}
 * [Cupcake]({{ site.url }}/pdf/cupcake-banners.pdf){:target="_blank"}
@@ -44,6 +46,7 @@ Clique abaixo no link com o nome do seu tema para ver a **posição** e o **tama
 * [Sapatos Femininos]({{ site.url }}/pdf/sapatos-femininos-banners.pdf){:target="_blank"}
 * [Sex Shop]({{ site.url }}/pdf/sexshop-banners.pdf){:target="_blank"}
 * [Shine]({{ site.url }}/pdf/shine-banners.pdf){:target="_blank"}
+* [Sports]({{ site.url }}/pdf/sports-banners.pdf){:target="_blank"}
 * [Summer Camp]({{ site.url }}/pdf/summer-banners.pdf){:target="_blank"}
 * [Wine]({{ site.url }}/pdf/wine-banners.pdf){:target="_blank"}
 
