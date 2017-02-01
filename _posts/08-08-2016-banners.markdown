@@ -40,6 +40,7 @@ Clique abaixo no link com o nome do seu tema para ver a **posição** e o **tama
 * [Material de Construção]({{ site.url }}/pdf/material-banners.pdf){:target="_blank"}
 * [Multi]({{ site.url }}/pdf/multi-banners.pdf){:target="_blank"}
 * [Natal]({{ site.url }}/pdf/natal-banners.pdf){:target="_blank"}
+* [Organic]({{ site.url }}/pdf/organic-banners.pdf){:target="_blank"}
 * [Papelaria]({{ site.url }}/pdf/papelaria-banners.pdf){:target="_blank"}
 * [Perfumaria]({{ site.url }}/pdf/perfumaria-banners.pdf){:target="_blank"}
 * [Petshop]({{ site.url }}/pdf/petshop-banners.pdf){:target="_blank"}
@@ -48,6 +49,7 @@ Clique abaixo no link com o nome do seu tema para ver a **posição** e o **tama
 * [Shine]({{ site.url }}/pdf/shine-banners.pdf){:target="_blank"}
 * [Sports]({{ site.url }}/pdf/sports-banners.pdf){:target="_blank"}
 * [Summer Camp]({{ site.url }}/pdf/summer-banners.pdf){:target="_blank"}
+* [Summer Time]({{ site.url }}/pdf/summertime-banners.pdf){:target="_blank"}
 * [Wine]({{ site.url }}/pdf/wine-banners.pdf){:target="_blank"}
 
 
