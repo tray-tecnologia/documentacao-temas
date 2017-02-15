@@ -24,7 +24,7 @@ Clique abaixo no link com o nome do seu tema para ver a **posição** e o **tama
 * [BLB - Eletronic]({{ site.url }}/pdf/blb-eletronic-banners.pdf){:target="_blank"}
 * [BLB - Kids]({{ site.url }}/pdf/blb-kids-banners.pdf){:target="_blank"}
 * [Car Parts]({{ site.url }}/pdf/carparts-banners.pdf){:target="_blank"}
-* [Casa & Decor]({{ site.url }}/pdf/cerveja-banners.pdf){:target="_blank"}
+* [Casa & Decor]({{ site.url }}/pdf/casaedecor-banners.pdf){:target="_blank"}
 * [Celular Shop]({{ site.url }}/pdf/celular-banners.pdf){:target="_blank"}
 * [Cerveja]({{ site.url }}/pdf/cerveja-banners.pdf){:target="_blank"}
 * [Clothing]({{ site.url }}/pdf/clothing-banners.pdf){:target="_blank"}
