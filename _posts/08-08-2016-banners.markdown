@@ -73,3 +73,8 @@ Não recomendamos alterar os demais tamanhos, pois pode ocasionar na quebra do t
 ## Banners em dispositivos móveis
 
 Alguns banners serão exibidos somente quando sua loja for acessada através de um dispositivo móvel(ex: celular), com isso, é possível mostrar banners adapatados para telas pequenas.
+
+## Liberação de banners adicionais
+
+Por padrão as lojas quando contratadas tem um limite de até 4 banners, esse número pode ser aumentado conforme a necessidade do tema escolhido.
+Para liberar mais banners basta entrar em contato com nosso suporte técnico.
