@@ -44,7 +44,7 @@ Clique abaixo no link com o nome do seu tema para ver a **posição** e o **tama
 * [Organic]({{ site.url }}/pdf/organic-banners.pdf){:target="_blank"}
 * [Papelaria]({{ site.url }}/pdf/papelaria-banners.pdf){:target="_blank"}
 * [Perfumaria]({{ site.url }}/pdf/perfumaria-banners.pdf){:target="_blank"}
-* [Petshop]({{ site.url }}/pdf/petshop-banners.pdf){:target="_blank"}
+* [Pet Style]({{ site.url }}/pdf/petshop-banners.pdf){:target="_blank"}
 * [Sapatos Femininos]({{ site.url }}/pdf/sapatos-femininos-banners.pdf){:target="_blank"}
 * [Sex Shop]({{ site.url }}/pdf/sexshop-banners.pdf){:target="_blank"}
 * [Shine]({{ site.url }}/pdf/shine-banners.pdf){:target="_blank"}
