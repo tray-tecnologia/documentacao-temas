@@ -56,19 +56,19 @@ Clique abaixo no link com o nome do seu tema para ver a **posição** e o **tama
 
 **Grátis**
 
-* [Automotivo]({{ site.url }}/pdf/automotivo-banners.pdf){:target="_blank"}
-* [Ammara]({{ site.url }}/pdf/ammara-banners.pdf){:target="_blank"}
+* [Peças Automotivas Starter]({{ site.url }}/pdf/automotivo-banners.pdf){:target="_blank"}
+* [Moda e Acessórios Starter]({{ site.url }}/pdf/ammara-banners.pdf){:target="_blank"}
 * [Brinquedos]({{ site.url }}/pdf/brinquedos-banners.pdf){:target="_blank"}
 * [Cama, mesa e banho]({{ site.url }}/pdf/cama-banners.pdf){:target="_blank"}
-* [Cute Style]({{ site.url }}/pdf/cutestyle-banners.pdf){:target="_blank"}
-* [Default]({{ site.url }}/pdf/default-banners.pdf){:target="_blank"}
-* [Eletrônico]({{ site.url }}/pdf/eletronico-banners.pdf){:target="_blank"}
-* [Esporte]({{ site.url }}/pdf/esporte-banners.pdf){:target="_blank"}
-* [Eight Cosmetics]({{ site.url }}/pdf/eightcosmetics-banners.pdf){:target="_blank"}
-* [Fashion]({{ site.url }}/pdf/fashion-gratis-banners.pdf){:target="_blank"}
+* [Animais de Estimação]({{ site.url }}/pdf/cutestyle-banners.pdf){:target="_blank"}
+* [Tema Padrão]({{ site.url }}/pdf/default-banners.pdf){:target="_blank"}
+* [Eletrônicos Starter]({{ site.url }}/pdf/eletronico-banners.pdf){:target="_blank"}
+* [Musculação e Esportes Starter]({{ site.url }}/pdf/esporte-banners.pdf){:target="_blank"}
+* [Maquiagem e Perfumes Starter]({{ site.url }}/pdf/eightcosmetics-banners.pdf){:target="_blank"}
+* [Roupas e acessórios]({{ site.url }}/pdf/fashion-gratis-banners.pdf){:target="_blank"}
 * [Geek]({{ site.url }}/pdf/geek-banners.pdf){:target="_blank"}
-* [Sport Life]({{ site.url }}/pdf/sportlife-banners.pdf){:target="_blank"}
-* [Saude e Beleza]({{ site.url }}/pdf/saude-banners.pdf){:target="_blank"}
+* [Artigos Esportivos Starter]({{ site.url }}/pdf/sportlife-banners.pdf){:target="_blank"}
+* [Saude e Beleza Starter]({{ site.url }}/pdf/saude-banners.pdf){:target="_blank"}
 
 ## Tamanhos sugeridos
 
